@@ -1,10 +1,10 @@
-FROM balenalib/%%BALENA_MACHINE_NAME%%-alpine-openJDK:11-jdk
+FROM balenalib/%%BALENA_MACHINE_NAME%%-alpine-openjdk:8
 
 WORKDIR /usr/src
 
 RUN apk add --no-cache python3 py3-pip wget
 
-RUN wget "https://github.com/blynkkk/blynk-server/releases/download/v0.41.16/server-0.41.16-java8.jar"
+RUN wget -q "https://github.com/blynkkk/blynk-server/releases/download/v0.41.16/server-0.41.16-java8.jar"
 
 COPY . /usr/src/
 
