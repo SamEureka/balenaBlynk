@@ -1,0 +1,24 @@
+name: balenaBlynk
+joinable: false
+type: sw.application
+description: >-
+  balenaBlynk is a balenaCloud hosted Blynk IoT server for Raspberry Pi.
+assets:
+  repository:
+    type: blob.asset
+    data:
+      url: 'https://github.com/SamEureka/balenaBlynk'
+  logo:
+    type: blob.asset
+    data:
+      url: >-
+        https://github.com/SamEureka/balenaBlynk/raw/main/logo.png
+data:
+  applicationEnvironmentVariables:
+    - HTTP_PORT: 8080
+  defaultDeviceType: raspberrypi3
+  supportedDeviceTypes:
+    - raspberrypi3
+    - raspberrypi3-64
+    - raspberrypi4-64
+version: 1.0.1
