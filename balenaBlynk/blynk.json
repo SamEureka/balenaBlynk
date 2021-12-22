@@ -1,0 +1,34 @@
+{
+  "variables": [
+    {
+      "balena": "HARDWARE_MQTT_PORT",
+      "ini": "hardware.mqtt.port",
+      "section": "blynk",
+      "default": "8440"
+    },
+    {
+      "balena": "HTTP_PORT",
+      "ini": "http.port",
+      "section": "blynk",
+      "default": "8080"
+    },
+    {
+      "balena": "FORCE_80_FOR_CSV",
+      "ini": "force.port.80.for.csv",
+      "section": "blynk",
+      "default": "false"
+    },
+    {
+      "balena": "FORCE_80_FOR_REDIRECT",
+      "ini": "force.port.80.for.redirect",
+      "section": "blynk",
+      "default": "true"
+    },
+    {
+      "balena": "HTTPS_PORT",
+      "ini": "https.port",
+      "section": "blynk",
+      "default": "9443"
+    }
+  ]
+}
