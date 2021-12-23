@@ -3,6 +3,10 @@ joinable: false
 type: sw.application
 description: >-
   balenaBlynk is a balenaCloud hosted Blynk IoT server for Raspberry Pi.
+post-provisioning: >-
+  ## Update
+  
+  This project still works but Blynk has transitioned to a new platform and the Blynk local server is not supported in the new platform. 
 assets:
   repository:
     type: blob.asset
