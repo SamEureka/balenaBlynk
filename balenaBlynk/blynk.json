@@ -13,13 +13,13 @@
       "default": "8080"
     },
     {
-      "balena": "FORCE_80_FOR_CSV",
+      "balena": "FORCE_PORT_80_FOR_CSV",
       "ini": "force.port.80.for.csv",
       "section": "blynk",
       "default": "false"
     },
     {
-      "balena": "FORCE_80_FOR_REDIRECT",
+      "balena": "FORCE_PORT_80_FOR_REDIRECT",
       "ini": "force.port.80.for.redirect",
       "section": "blynk",
       "default": "true"
@@ -29,6 +29,252 @@
       "ini": "https.port",
       "section": "blynk",
       "default": "9443"
+    },
+    {
+      "balena": "LOG_LEVEL",
+      "ini": "log.level",
+      "section": "blynk",
+      "default": "info"
+    },
+    {
+      "balena": "LISTEN_ADDRESS",
+      "ini": "listen.address",
+      "section": "blynk",
+      "default": ""
+    },
+    {
+      "balena": "SERVER_SSL_CERT",
+      "ini": "server.ssl.cert",
+      "section": "blynk",
+      "default": ""
+    },
+    {
+      "balena": "SERVER_SSL_KEY",
+      "ini": "server.ssl.key",
+      "section": "blynk",
+      "default": ""
+    },
+    {
+      "balena": "SERVER_SSL_KEY_PASS",
+      "ini": "server.ssl.key.pass",
+      "section": "blynk",
+      "default": ""
+    },
+    {
+      "balena": "DATA_FOLDER",
+      "ini": "data.folder",
+      "section": "blynk",
+      "default": ""
+    },
+    {
+      "balena": "LOGS_FOLDER",
+      "ini": "logs.folder",
+      "section": "blynk",
+      "default": "./logs"
+    },
+    {
+      "balena": "USER_DEVICES_LIMIT",
+      "ini": "user.devices.limit",
+      "section": "blynk",
+      "default": "50"
+    },
+    {
+      "balena": "USER_TAGS_LIMIT",
+      "ini": "user.tags.limit",
+      "section": "blynk",
+      "default": "100"
+    },
+    {
+      "balena": "USER_DASHBOARD_MAX_LIMIT",
+      "ini": "user.dashboard.max.limit",
+      "section": "blynk",
+      "default": "100"
+    },
+    {
+      "balena": "USER_WIDGET_MAX_SIZE_LIMIT",
+      "ini": "user.widget.max.size.limit",
+      "section": "blynk",
+      "default": "20"
+    },
+    {
+      "balena": "USER_MESSAGE_QUOTA_LIMIT",
+      "ini": "user.message.quota.limit",
+      "section": "blynk",
+      "default": "100"
+    },
+    {
+      "balena": "USER_MESSAGE_QUEUE_LIMIT",
+      "ini": "user.message.queue.limit",
+      "section": "blynk",
+      "default": "2000"
+    },
+    {
+      "balena": "NOTIFICATIONS_QUEUE_LIMIT",
+      "ini": "notifications.queue.limit",
+      "section": "blynk",
+      "default": "2000"
+    },
+    {
+      "balena": "BLOCKING_PROCESSOR_THREAD_POOL_LIMIT",
+      "ini": "blocking.processor.thread.pool.limit",
+      "section": "blynk",
+      "default": "6"
+    },
+    {
+      "balena": "NOTIFICATIONS_FREQUENCY_USER_QUOTA_LIMIT",
+      "ini": "notifications.frequency.user.quota.limit",
+      "section": "blynk",
+      "default": "5"
+    },
+    {
+      "balena": "WEBHOOKS_FREQUENCY_USER_QUOTA_LIMIT",
+      "ini": "webhooks.frequency.user.quota.limit",
+      "section": "blynk",
+      "default": "1000"
+    },
+    {
+      "balena": "WEBHOOKS_RESPONSE_SIZE_LIMIT",
+      "ini": "webhooks.response.size.limit",
+      "section": "blynk",
+      "default": "96"
+    },
+    {
+      "balena": "USER_PROFILE_MAX_SIZE",
+      "ini": "user.profile.max.size",
+      "section": "blynk",
+      "default": "256"
+    },
+    {
+      "balena": "TERMINAL_STRINGS_POOL_SIZE",
+      "ini": "terminal.strings.pool.size",
+      "section": "blynk",
+      "default": "25"
+    },
+    {
+      "balena": "MAX_STRINGS_POOL_SIZE",
+      "ini": "map.strings.pool.size",
+      "section": "blynk",
+      "default": "25"
+    },
+    {
+      "balena": "LCD_STRINGS_POOL_SIZE",
+      "ini": "lcd.strings.pool.size",
+      "section": "blynk",
+      "default": "6"
+    },
+    {
+      "balena": "TABLE_ROWS_POOL_SIZE",
+      "ini": "table.rows.pool.size",
+      "section": "blynk",
+      "default": "100"
+    },
+    {
+      "balena": "PROFILE_SAVE_WORKER_PERIOD",
+      "ini": "profile.save.worker.period",
+      "section": "blynk",
+      "default": "60000"
+    },
+    {
+      "balena": "STAT_PRINT_WORKER_PERIOD",
+      "ini": "stats.print.worker.period",
+      "section": "blynk",
+      "default": "60000"
+    },
+    {
+      "balena": "WEB_REQUEST_MAX_SIZE",
+      "ini": "web.request.max.size",
+      "section": "blynk",
+      "default": "524288"
+    },
+    {
+      "balena": "CSV_EXPORT_DATA_POINTS_MAX",
+      "ini": "csv.export.data.points.max",
+      "section": "blynk",
+      "default": "43200"
+    },
+    {
+      "balena": "HARD_SOCKET_IDLE_TIMEOUT",
+      "ini": "hard.socket.idle.timeout",
+      "section": "blynk",
+      "default": "10"
+    },
+    {
+      "balena": "ENABLE_DB",
+      "ini": "enable.db",
+      "section": "blynk",
+      "default": "false"
+    },
+    {
+      "balena": "ENABLE_RAW_DB_DATA_STORE",
+      "ini": "enable.raw.db.data.store",
+      "section": "blynk",
+      "default": "false"
+    },
+    {
+      "balena": "ASYNC_LOGGER_RING_BUFFER_SIZE",
+      "ini": "async.logger.ring.buffer.size",
+      "section": "blynk",
+      "default": "2048"
+    },
+    {
+      "balena": "ALLOW_READING_WIDGET_WITHOUT_ACTIVE_APP",
+      "ini": "allow.reading.widget.without.active.app",
+      "section": "blynk",
+      "default": "false"
+    },
+    {
+      "balena": "ALLOW_STORE_IP",
+      "ini": "allow.store.ip",
+      "section": "blynk",
+      "default": "true"
+    },
+    {
+      "balena": "INITIAL_ENERGY",
+      "ini": "initial.energy",
+      "section": "blynk",
+      "default": "1000000"
+    },
+    {
+      "balena": "ADMIN_ROOTPATH",
+      "ini": "admin.rootPath",
+      "section": "blynk",
+      "default": "/admin"
+    },
+    {
+      "balena": "RESTORE_HOST",
+      "ini": "restore.host",
+      "section": "blynk",
+      "default": "*.blynk.cc"
+    },
+    {
+      "balena": "PRODUCT_NAME",
+      "ini": "product.name",
+      "section": "blynk",
+      "default": "balenaBlynk"
+    },
+    {
+      "balena": "NET_INTERFACE",
+      "ini": "net.interface",
+      "section": "blynk",
+      "default": "eth"
+    },
+    {
+      "balena": "ALLOWED_ADMINISTRATOR_IPS",
+      "ini": "allowed.administrator.ips",
+      "section": "blynk",
+      "default": "0.0.0.0/0,::/0"
+    },
+    {
+      "balena": "ADMIN_EMAIL",
+      "ini": "admin.email",
+      "section": "blynk",
+      "default": "admin@localhost"
+    },
+    {
+      "balena": "ADMIN_PASS",
+      "ini": "admin.pass",
+      "section": "blynk",
+      "default": "b@13n4!"
     }
   ]
 }
