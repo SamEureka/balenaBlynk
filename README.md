@@ -9,3 +9,6 @@ Not the same, but still awesome...
 * [Adafruit.io](https://io.adafruit.com/)
 * [Arduino Cloud IoT](https://docs.arduino.cc/cloud/iot-cloud)
 * [Ubidots](https://ubidots.com/)
+
+## CONFIGURATION
+* [Available Device Variables](https://github.com/SamEureka/balenaBlynk/blob/main/device_variables.md)
