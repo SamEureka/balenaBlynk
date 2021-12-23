@@ -1,5 +1,5 @@
 ## Available Device Variables w/ default values
----
+
 |Variable|Default|
 |---|---|
 |ENV HARDWARE_MQTT_PORT|8440|
