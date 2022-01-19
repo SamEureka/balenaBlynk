@@ -6,6 +6,7 @@ This project still works but Blynk has transitioned to a new platform and the Bl
 
 ## ALTERNATIVES
 Not the same, but still awesome...
+* [blynk.io](https://blynk.io/)
 * [Adafruit.io](https://io.adafruit.com/)
 * [Arduino Cloud IoT](https://docs.arduino.cc/cloud/iot-cloud)
 * [Ubidots](https://ubidots.com/)
